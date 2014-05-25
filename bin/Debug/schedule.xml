@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<schedule>
-<program starttime="17/05/2014 11:00:00" endtime="17/05/2014 11:19:00" source="studio">Test</program>
-<program starttime="17/05/2014 11:19:00" endtime="17/05/2014 12:20:00" source="ob" url="http://tyne/test">Test 2</program>
-<program starttime="17/05/2014 12:20:00" endtime="17/05/2014 13:20:00" source="studio">Test 3</program>
-</schedule>

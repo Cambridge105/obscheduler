@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<schedule>
-<program starttime="25/05/2014 13:00:00" endtime="25/05/2014 13:37:00" source="studio">Test1</program>
-<program starttime="25/05/2014 13:37:00" endtime="25/05/2014 13:40:00" source="ob">Test2</program>
-<program starttime="25/05/2014 13:40:00" endtime="25/05/2014 14:40:00" source="studio">Test3</program>
-</schedule>
