@@ -129,11 +129,11 @@ namespace OBScheduler
                     {
                         lease.ForeColor = Color.Silver;
                     }
-                    progNow.Text = thisProgramme.title;
+                    progNow.Text = System.Net.WebUtility.HtmlDecode(thisProgramme.title);
                     untilLabel.Text = thisProgramme.endtime.ToString("HH:mm:ss");
                     if ((i + 1) < schedule.Count)
                     {
-                        progNext.Text = schedule[(i + 1)].title;
+                        progNext.Text = System.Net.WebUtility.HtmlDecode(schedule[(i + 1)].title);
                         progNext.ForeColor = Color.Black;
                         if (leaseRemaining > -60 && schedule[(i + 1)].source == RemoteSources.ob)
                         {

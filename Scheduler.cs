@@ -140,7 +140,7 @@ namespace OBScheduler
                         // There's a URL too
                         urlString = " url=\"" + scheduleLineInfo[4].Trim() + "\"";
                     }
-                    xml = xml + "<program starttime=\"" + scheduleLineInfo[0].Trim() + "\" endtime=\"" + scheduleLineInfo[1] + "\" source=\"" + scheduleLineInfo[2].ToLower() + "\"" + urlString + ">" + scheduleLineInfo[3].Trim() + "</program>\r\n";
+                    xml = xml + "<program starttime=\"" + scheduleLineInfo[0].Trim() + "\" endtime=\"" + scheduleLineInfo[1] + "\" source=\"" + scheduleLineInfo[2].ToLower() + "\"" + urlString + ">" + System.Net.WebUtility.HtmlEncode(scheduleLineInfo[3].Trim()) + "</program>\r\n";
                 }
             }
             xml = xml + "</schedule>";

@@ -51,9 +51,9 @@
             this.progNext = new System.Windows.Forms.Label();
             this.sourceLabel = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.untilLabel = new System.Windows.Forms.Label();
             this.scheduleButton = new System.Windows.Forms.Button();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -230,6 +230,7 @@
             this.progNow.Size = new System.Drawing.Size(126, 13);
             this.progNow.TabIndex = 15;
             this.progNow.Text = "Unknown Programme";
+            this.progNow.UseMnemonic = false;
             // 
             // progNext
             // 
@@ -239,6 +240,7 @@
             this.progNext.Size = new System.Drawing.Size(109, 13);
             this.progNext.TabIndex = 16;
             this.progNext.Text = "Unknown Programme";
+            this.progNext.UseMnemonic = false;
             // 
             // sourceLabel
             // 
@@ -266,6 +268,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Schedule";
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(290, -22);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(183, 20);
+            this.progressBar1.TabIndex = 19;
+            // 
             // untilLabel
             // 
             this.untilLabel.AutoSize = true;
@@ -285,13 +294,6 @@
             this.scheduleButton.Text = "Edit schedule...";
             this.scheduleButton.UseVisualStyleBackColor = true;
             this.scheduleButton.Click += new System.EventHandler(this.scheduleButton_Click);
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(290, -22);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(183, 20);
-            this.progressBar1.TabIndex = 19;
             // 
             // progressBar
             // 
