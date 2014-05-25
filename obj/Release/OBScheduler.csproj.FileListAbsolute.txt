@@ -1,0 +1,11 @@
+C:\Users\Dominic\documents\visual studio 2012\Projects\OBScheduler\OBScheduler\bin\Release\OBScheduler.exe.config
+C:\Users\Dominic\documents\visual studio 2012\Projects\OBScheduler\OBScheduler\bin\Release\schedule.xml
+C:\Users\Dominic\documents\visual studio 2012\Projects\OBScheduler\OBScheduler\bin\Release\OBScheduler.exe
+C:\Users\Dominic\documents\visual studio 2012\Projects\OBScheduler\OBScheduler\bin\Release\OBScheduler.pdb
+C:\Users\Dominic\documents\visual studio 2012\Projects\OBScheduler\OBScheduler\obj\Release\OBScheduler.csprojResolveAssemblyReference.cache
+C:\Users\Dominic\documents\visual studio 2012\Projects\OBScheduler\OBScheduler\obj\Release\OBScheduler.Properties.Resources.resources
+C:\Users\Dominic\documents\visual studio 2012\Projects\OBScheduler\OBScheduler\obj\Release\OBScheduler.csproj.GenerateResource.Cache
+C:\Users\Dominic\documents\visual studio 2012\Projects\OBScheduler\OBScheduler\obj\Release\OBScheduler.exe
+C:\Users\Dominic\documents\visual studio 2012\Projects\OBScheduler\OBScheduler\obj\Release\OBScheduler.pdb
+C:\Users\Dominic\documents\visual studio 2012\Projects\OBScheduler\OBScheduler\obj\Release\OBScheduler.MainForm.resources
+C:\Users\Dominic\documents\visual studio 2012\Projects\OBScheduler\OBScheduler\obj\Release\OBScheduler.Scheduler.resources

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<schedule>
+  <program starttime="19:40:52" endtime="20:02:04" source="irn">News</program>
+<program starttime="20:02:04" endtime="20:45:00" source="sam">Urban bassline</program>
+<program starttime="20:45:00" endtime="23:59:52" source="ob">Weekend waffle</program>
+<program starttime="23:59:52" endtime="2014-05-17 00:02:04" source="irn">News</program>
+<program starttime="2014-05-17 00:02:04" endtime="2014-05-17 07:59:52" source="sam">Non-stop 105</program>
+</schedule>
