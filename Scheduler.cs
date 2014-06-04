@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Globalization;
 using System.Threading;
+using System.Text.RegularExpressions;
 
 namespace OBScheduler
 {
@@ -52,11 +53,13 @@ namespace OBScheduler
         {
             try
             {
+                if (startTime.Text.Length < 4) { throw new FormatException(); }
                 if (!startTime.Text.Contains(':'))
                 {
                     startTime.Text = startTime.Text.Insert((startTime.Text.Length-2),":");
                 }
                 DateTime MyDateTime = DateTime.Parse(startTime.Text,culture);
+                if (MyDateTime == null) { throw new FormatException(); }
                 startTime.ForeColor = Color.Black;
                 if ((MyDateTime.Day == DateTime.Now.Day) && (isTomorrow == true))
                 {

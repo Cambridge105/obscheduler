@@ -109,10 +109,15 @@ namespace OBScheduler
             {
                 scheduleItem thisProgramme = schedule[i];
 
-                if ((studioTime.TimeOfDay < thisProgramme.endtime.TimeOfDay) && (studioTime.TimeOfDay >= thisProgramme.starttime.TimeOfDay))
+                if ((studioTime < thisProgramme.endtime) && (studioTime >= thisProgramme.starttime))
                 {
                     switchRemote(thisProgramme.source);
                     TimeSpan leaseRemainCalc = studioTime.Subtract(thisProgramme.endtime);
+                    if (leaseRemainCalc.TotalSeconds > 0)
+                    {
+                        // The programme has already finished!
+                        leaseRemainCalc = new TimeSpan(0, 0, 0);
+                    }
                     int leaseRemaining = Convert.ToInt32(Math.Floor(leaseRemainCalc.TotalSeconds));
                     int leaseRemainingUnsigned = (leaseRemaining - leaseRemaining - leaseRemaining);
                     lease.Text = leaseRemainCalc.ToString(@"hh\:mm\:ss\.f");
