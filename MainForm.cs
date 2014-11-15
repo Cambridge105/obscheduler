@@ -126,13 +126,13 @@ namespace OBScheduler
                     int progDurationSecs = Convert.ToInt32(Math.Floor(progDuration.TotalSeconds));
                     decimal percentRemaining = Convert.ToDecimal(leaseRemainingUnsigned) / Convert.ToDecimal(progDurationSecs);
                     progressBar.Value = Convert.ToInt32(100 - percentRemaining*100);
-                    if (leaseRemaining > -60 && thisProgramme.source == RemoteSources.ob)
+                    if (leaseRemaining > -300 && thisProgramme.source == RemoteSources.ob)
                     {
                         lease.ForeColor = Color.DarkRed;
                     }
                     else
                     {
-                        lease.ForeColor = Color.Silver;
+                        lease.ForeColor = Color.SlateGray;
                     }
                     progNow.Text = System.Net.WebUtility.HtmlDecode(thisProgramme.title);
                     untilLabel.Text = thisProgramme.endtime.ToString("HH:mm:ss");
@@ -140,7 +140,7 @@ namespace OBScheduler
                     {
                         progNext.Text = System.Net.WebUtility.HtmlDecode(schedule[(i + 1)].title);
                         progNext.ForeColor = Color.Black;
-                        if (leaseRemaining > -60 && schedule[(i + 1)].source == RemoteSources.ob)
+                        if (leaseRemaining > -120 && schedule[(i + 1)].source == RemoteSources.ob)
                         {
                             lease.ForeColor = Color.ForestGreen;
                         }
