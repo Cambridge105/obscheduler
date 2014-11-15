@@ -83,7 +83,7 @@
             this.delay.Name = "delay";
             this.delay.Size = new System.Drawing.Size(87, 20);
             this.delay.TabIndex = 2;
-            this.delay.Text = "0";
+            this.delay.Text = "3000";
             // 
             // stLabel
             // 
@@ -107,6 +107,7 @@
             // 
             // st
             // 
+            this.st.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.st.AutoSize = true;
             this.st.Font = new System.Drawing.Font("Segoe UI", 26F, System.Drawing.FontStyle.Bold);
             this.st.ForeColor = System.Drawing.SystemColors.Highlight;
@@ -177,12 +178,13 @@
             // 
             // lease
             // 
+            this.lease.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lease.AutoSize = true;
-            this.lease.Font = new System.Drawing.Font("Segoe UI Semibold", 26F, System.Drawing.FontStyle.Bold);
-            this.lease.ForeColor = System.Drawing.Color.Silver;
+            this.lease.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lease.ForeColor = System.Drawing.Color.SlateGray;
             this.lease.Location = new System.Drawing.Point(297, 117);
             this.lease.Name = "lease";
-            this.lease.Size = new System.Drawing.Size(164, 47);
+            this.lease.Size = new System.Drawing.Size(172, 47);
             this.lease.TabIndex = 11;
             this.lease.Text = "-00:00:00";
             this.lease.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

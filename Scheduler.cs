@@ -73,7 +73,7 @@ namespace OBScheduler
                 }
             
             }
-            catch (FormatException fe)
+            catch (FormatException)
             {
                 startTime.Text = "0";
                 startTime.ForeColor = Color.Red;

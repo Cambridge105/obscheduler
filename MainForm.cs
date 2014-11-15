@@ -94,7 +94,7 @@ namespace OBScheduler
             {
                 obDelay = Convert.ToInt32(delay.Text);
             }
-            catch (FormatException fe)
+            catch (FormatException)
             {
                 obDelay = 0;
             }
@@ -158,7 +158,7 @@ namespace OBScheduler
                             {
                                 wb.DownloadStringAsync(new Uri(thisProgramme.url));
                             }
-                            catch (WebException we)
+                            catch (WebException)
                             {
                                 // Do nothing
                             }
